@@ -9,7 +9,7 @@ before_install:
 install:
   # Install Ansible.
   - pip install ansible
-  - private/bootstrap.sh
+  - ./private/bootstrap.sh
 
   # Add ansible.cfg to pick up roles path.
   # - "printf '[defaults]\nroles_path = ../' > ansible.cfg"
